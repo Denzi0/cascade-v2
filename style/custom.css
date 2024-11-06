@@ -1,0 +1,398 @@
+:root {
+  --main-color: #f15a29;
+  --secondary-color: #293c46;
+  --white-text: #fff;
+}
+
+.cad-span-orange,
+.cad-orange-color {
+  color: var(--main-color);
+}
+
+.cad-btn-fill {
+  padding: 15px 30px;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.cad-btn-fill i {
+  margin-right: 10px;
+}
+.cad-submit-btn {
+  width: auto;
+  min-width: 100px;
+  max-width: unset;
+  height: auto;
+  min-height: unset;
+  max-height: unset;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 2px;
+  background-image: unset;
+  line-height: 1.45em;
+  text-align: center;
+  background: #f15a29;
+}
+.cad-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.cad-header-line:after {
+  display: block;
+  content: "";
+  background: #f15a29;
+  width: 90px;
+  height: 4px;
+  margin-top: 15px !important;
+  margin: 0 auto;
+}
+.cad-header-line-card:after {
+  display: block;
+  content: "";
+  background: #f15a29;
+  width: 55px;
+  height: 2px;
+  margin-top: 15px !important;
+  margin: 0 auto;
+}
+.cad-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/assets/img/color_bond_fence_installation.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.cad-banner .cad-logo-header {
+  width: 230px;
+  height: auto;
+}
+.cad-menu-bar {
+  padding: 17px;
+  background: #f15a29;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  display: none;
+  cursor: pointer;
+}
+.cad-banner-content {
+  position: relative;
+  z-index: 2;
+}
+.cad-banner .cad-form-container {
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.cad-banner-content img {
+  width: 325px;
+  height: auto;
+}
+
+.cad-mobile-nav a {
+  color: #000;
+}
+
+.cad-mobile-nav.active {
+  transform: translate(0px, 0px);
+}
+.cad-mobile-nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  height: 100%;
+  background: #293c46;
+  width: 480px;
+  transform: translate(-490px, 0px);
+  transition: transform 0.3s ease;
+}
+.cad-main-nav {
+  background-color: var(--secondary-color);
+  padding: 15px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.cad-main-nav .cad-main-menu li a {
+  color: #fff;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+.cad-main-nav .cad-main-menu li a.active {
+  color: var(--main-color);
+}
+.cad-banner-container {
+  height: 100%;
+}
+.cad-main-nav .cad-btn-fill {
+  margin-left: 50px;
+}
+.cad-item-container .cad-item h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cad-item h3 {
+  margin-bottom: 10px;
+}
+
+.cad-services-steps {
+  padding: 75px 0px;
+}
+.cad-services-steps .cad-item {
+  padding: 25px;
+}
+.cad-services-steps .cad-item i {
+  background: var(--main-color);
+  padding: 30px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.cad-services-steps .cad-item i:hover {
+  background: var(--secondary-color);
+}
+.cad-services-steps .cad-item h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.cad-wud {
+  padding: 75px 0;
+  background: linear-gradient(rgba(41, 60, 70, 0.9), rgba(41, 60, 70, 0.9)),
+    url("/assets/img/color_bond_fence_installation.jpg");
+
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+}
+.cad-wud .cad-item-container .cad-item {
+  padding: 25px;
+  width: 28%;
+  background: #fff;
+  margin: 8px;
+  border-radius: 25px;
+  transition: 0.3s ease-in;
+}
+.cad-wud .cad-item-container .cad-item:hover {
+  transform: translateY(-10px);
+}
+.cad-wud .cad-item-container .cad-item h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+.cad-services-steps .cad-btn-container {
+  margin: 25px 0px;
+  text-align: center;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+  height: 370px;
+  margin-top: 35px;
+}
+.slick-dots li.slick-active button:before {
+  color: #f15a29 !important;
+}
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #f15a29 !important;
+}
+.cad-wud .cad-item i {
+  padding: 30px;
+  border-radius: 50%;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: var(--main-color);
+  border: 1px solid #e2e6e7;
+}
+
+.cad-testimonials {
+  background-color: #fafafa;
+}
+
+.cad-image-and-text .cad-image,
+.cad-image-and-text .cad-content {
+  flex: 1;
+}
+.cad-image-and-text .cad-content {
+  padding: 0 110px;
+}
+.cad-cta {
+  padding: 75px 0;
+  background: linear-gradient(rgba(41, 60, 70, 0.9), rgba(41, 60, 70, 0.9)),
+    url("/assets/img/color_bond_fence_installation.jpg");
+
+  background-position: center;
+  background-size: cover;
+}
+
+/* Basic styling for layout */
+.cad-form-container .form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  margin: 0 auto;
+}
+
+.cad-form-container .column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.cad-form-container .full-width {
+  width: 100%;
+}
+.cad-form-container label {
+  text-align: left;
+}
+.cad-form-container label,
+.cad-form-container input,
+.cad-form-container textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.cad-form-container h3 {
+  font-size: 31px;
+}
+/***** This is where the fun happens *****/
+
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Closed dropdown styles */
+.dropdown {
+  padding: 0.9em 1em;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100%;
+  border: 1px solid #d5d8dc;
+}
+
+.dropdown__content {
+  max-height: 0;
+  transition: 200ms;
+
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+/* Active Dropdown Styles */
+
+.dropdown.active .dropdown__content {
+  max-height: 100vh;
+  padding: 1rem;
+  transition: 400ms;
+}
+
+.footer-logo img {
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  background-color: var(--secondary-color);
+}
+.footer-section .cad-container {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 75px;
+}
+.footer-policy {
+  padding: 25px 0px;
+}
+.footer-policy p {
+  margin: 10px 0px;
+}
+.footer-section i {
+  display: block;
+  font-size: 48px;
+}
+
+@media (max-width: 1024px) {
+  .cad-main-menu li {
+    display: none;
+  }
+  .cad-menu-bar {
+    display: inline-block;
+  }
+  .cad-banner-container {
+    flex-direction: column;
+  }
+  .cad-services-steps .cad-item-container {
+    flex-direction: column;
+  }
+  .cad-wud .cad-item-container .cad-item {
+    width: 48%;
+  }
+  .cad-image-and-text .cad-content {
+    padding: 0 30px;
+  }
+  .cad-form .cad-google-map-container {
+    flex-direction: column;
+  }
+  .cad-google-map {
+    width: 100%;
+  }
+  .cad-banner-content img {
+    margin: 0 auto;
+  }
+  .cad-banner-content {
+    text-align: center;
+    padding-top: 130px;
+  }
+}
+@media (max-width: 768px) {
+  .cad-menu-bar {
+    display: none;
+  }
+  .footer-number {
+    margin: 30px 0px;
+  }
+  .cad-wud .cad-item-container .cad-item {
+    width: 100%;
+  }
+  .cad-form .cad-form-container {
+    padding: 20px;
+  }
+  .cad-image-and-text .cad-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cad-image-and-text .cad-content {
+    margin-top: 50px;
+  }
+  .footer-section .cad-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-logo img {
+    margin-bottom: 30px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 585px) {
+  .cad-main-nav .cad-btn-container .cad-btn-fill span {
+    display: none;
+  }
+}
+.eapps-google-reviews-463dedf6-4d45-443d-afad-d356a7abc8cd a {
+  display: none !important;
+}

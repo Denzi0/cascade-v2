@@ -1,0 +1,260 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-weight: 900;
+}
+li {
+  list-style-type: none;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica, sans-serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+h2 {
+  margin: 0 0 25px;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.1em;
+}
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+.cad-text-uppercase {
+  text-transform: uppercase;
+}
+.cad-text-white {
+  color: #fff;
+}
+.cad-text-orange {
+  color: #f15a29;
+}
+.cad-secondary-color {
+  color: #293c46;
+}
+.cad-text-center {
+  text-align: center;
+}
+.cad-text-left {
+  text-align: left;
+}
+.cad-margin-25 {
+  margin: 25px;
+}
+.card-margin-top-20 {
+  margin-top: 20px;
+}
+.cad-padding-75 {
+  padding: 75px 0px;
+}
+/* Container */
+.cad-flex {
+  display: flex;
+}
+
+/* Flex Direction */
+.cad-flex-row {
+  flex-direction: row;
+}
+
+.cad-flex-column {
+  flex-direction: column;
+}
+
+/* Flex Wrap */
+.cad-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.cad-flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+/* Justify Content */
+.cad-justify-start {
+  justify-content: flex-start;
+}
+
+.cad-justify-center {
+  justify-content: center;
+}
+
+.cad-justify-end {
+  justify-content: flex-end;
+}
+
+.cad-justify-between {
+  justify-content: space-between;
+}
+
+.cad-justify-around {
+  justify-content: space-around;
+}
+
+.cad-justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* Align Items */
+.cad-align-start {
+  align-items: flex-start;
+}
+
+.cad-align-center {
+  align-items: center;
+}
+
+.cad-align-end {
+  align-items: flex-end;
+}
+
+.cad-align-stretch {
+  align-items: stretch;
+}
+
+.cad-align-baseline {
+  align-items: baseline;
+}
+
+/* Align Content (for multi-line flex containers) */
+.cad-content-start {
+  align-content: flex-start;
+}
+
+.cad-content-center {
+  align-content: center;
+}
+
+.cad-content-end {
+  align-content: flex-end;
+}
+
+.cad-content-between {
+  align-content: space-between;
+}
+
+.cad-content-around {
+  align-content: space-around;
+}
+
+.cad-content-stretch {
+  align-content: stretch;
+}
+
+/* Flex Grow, Shrink, and Basis */
+.cad-grow {
+  flex-grow: 1;
+}
+.cad-flex-1 {
+  flex: 1;
+}
+.cad-flex-2 {
+  flex: 2;
+}
+.cad-flex-3 {
+  flex: 3;
+}
+.cad-shrink {
+  flex-shrink: 1;
+}
+
+.cad-basis-auto {
+  flex-basis: auto;
+}
+
+.cad-basis-50 {
+  flex-basis: 50%;
+}
+
+.cad-basis-100 {
+  flex-basis: 100%;
+}
+.cad-gap-50 {
+  gap: 50px;
+}
+/* Spacing */
+.cad-gap-1 {
+  gap: 0.25rem;
+}
+
+.cad-gap-2 {
+  gap: 0.5rem;
+}
+
+.cad-gap-3 {
+  gap: 0.75rem;
+}
+
+.cad-gap-4 {
+  gap: 1rem;
+}
+
+.cad-gap-5 {
+  gap: 1.5rem;
+}
