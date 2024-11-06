@@ -65,7 +65,7 @@
 }
 .cad-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./assets/img/color_bond_fence_installation.jpg");
+    url("../assets/img/color_bond_fence_installation.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -173,7 +173,7 @@
 .cad-wud {
   padding: 75px 0;
   background: linear-gradient(rgba(41, 60, 70, 0.9), rgba(41, 60, 70, 0.9)),
-    url("./assets/img/color_bond_fence_installation.jpg");
+    url("../assets/img/color_bond_fence_installation.jpg");
 
   background-position: center;
   background-size: cover;
@@ -234,7 +234,7 @@
 .cad-cta {
   padding: 75px 0;
   background: linear-gradient(rgba(41, 60, 70, 0.9), rgba(41, 60, 70, 0.9)),
-    url("./assets/img/color_bond_fence_installation.jpg");
+    url("../assets/img/color_bond_fence_installation.jpg");
 
   background-position: center;
   background-size: cover;
