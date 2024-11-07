@@ -89,8 +89,25 @@
   z-index: 2;
 }
 .cad-banner .cad-form-container {
-  padding: 40px;
   background: rgba(0, 0, 0, 0.4);
+}
+.cad-banner .cad-form-container iframe::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.cad-banner .cad-form-container iframe::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.cad-banner .cad-form-container iframe::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.cad-banner .cad-form-container iframe::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 .cad-banner-content img {
   width: 325px;
@@ -239,7 +256,9 @@
   background-position: center;
   background-size: cover;
 }
-
+/* .cad-form-container iframe {
+  background-color: #293c46;
+} */
 /* Basic styling for layout */
 .cad-form-container .form-container {
   display: flex;
@@ -248,7 +267,9 @@
 
   margin: 0 auto;
 }
-
+.cad-banner .cad-form-container {
+  width: 870px;
+}
 .cad-form-container .column {
   flex: 1;
   min-width: 250px;
@@ -359,6 +380,14 @@
   }
 }
 @media (max-width: 768px) {
+  .cad-banner .cad-form-container {
+    z-index: 9;
+    width: 100%;
+  }
+  .cad-form .cad-form-container {
+    padding: 20px;
+    width: 100%;
+  }
   .cad-menu-bar {
     display: none;
   }
